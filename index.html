@@ -21,91 +21,34 @@
 
             <ul class="navigation">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#add blog">Add Blog</a></li>
             </ul>
         </div>
     </header>
     <!--Navbar section ends  -->
 
-    <!--main content starts  -->
-    <div class="container main">
-        <!--coloumn-1-->
-       <div class="col">
-        <div class="post">
-            <img class="post-img" src="./img/blog 1.jpg" alt="" />
-
-            <div class="post-info">
-                <h2>Blog</h2>
-                <div class="user-info">
-                    <img src="./img/person1.jpg" alt=""/>
-                    <span>user 1</span>
-                    <span>Agust 21,2021</span>
-                    <span>#blogs</span>
-                </div>
-                <p>
-                    here is my blog space write a blog here any blog . hdjknebdhe  jedhehdbnqfheeufhhebf  uifuejcn m, cjkhwcbew emc  uiydeunwd w djb.
-                </p>
-            </div>
-        </div>
-        <div class="post">
-            <img class="post-img" src="./img/aaron-burden-xG8IQMqMITM-unsplash.jpg" alt="" />
-
-            <div class="post-info">
-                <h2>Blog</h2>
-                <div class="user-info">
-                    <img src="./img/person1.jpg" alt=""/>
-                    <span>user 1</span>
-                    <span>Agust 21,2021</span>
-                    <span>#blogs</span>
-                </div>
-                <p>
-                    here is my blog space write a blog here any blog . hdjknebdhe  jedhehdbnqfheeufhhebf  uifuejcn m, cjkhwcbew emc  uiydeunwd w djb.
-                </p>
-            </div>
-        </div>
-       </div>
-
-        <!--coloumn-2-->
         <div class="col">
-            <div class="post">
-                <img class="post-img" src="./img/blog 2.jpg" alt="" />
-    
-                <div class="post-info">
-                    <h2>Blog</h2>
-                    <div class="user-info">
-                        <img src="./img/person 2.jpg" alt=""/>
-                        <span>user 2</span>
-                        <span>Agust 21,2021</span>
-                        <span>#blogs</span>
-                    </div>
-                    <p>
-                        here is my blog space write a blog here any blog .huwdhjndjnqwjdn  uihdejnsnduhqed  uhhdund jkhdbcnc.
-                    </p>
-                </div>
-            </div>
-            <div class="post">
-                <img class="post-img" src="./img/blog 4.jpg" alt="" />
-    
-                <div class="post-info">
-                    <h2>Blog</h2>
-                    <div class="user-info">
-                        <img src="./img/person 2.jpg" alt=""/>
-                        <span>user 1</span>
-                        <span>Agust 21,2021</span>
-                        <span>#blogs</span>
-                    </div>
-                    <p>
-                        here is my blog space write a blog here any blog . hdjknebdhe  jedhehdbnqfheeufhhebf  uifuejcn m, cjkhwcbew emc  uiydeunwd w djb.
-                    </p>
-                </div>
-            </div>
+           
         </div>
 
-    </div>
 
     <!--main content ends  -->
+
+
+    <!--add blog section starts-->
+    <div class="container" id="add blog">
+        <form action="/action_page.php">
+          <label for="fname">Blog Title</label>
+          <input type="text" id="fname" name="blog title" placeholder="Your blog title">
+      
+          <label for="subject">Write your Blog</label>
+          <textarea id="subject" name="your blog" placeholder="Write your blog here..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+    <!--add blog section ends-->
      <!--footer starts -->
 <footer>
     <div class="container footer">
