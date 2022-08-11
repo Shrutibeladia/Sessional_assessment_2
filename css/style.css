@@ -119,3 +119,57 @@ a{
     text-decoration: underline;
     cursor: pointer;
 }
+
+footer{
+    margin-top: 3rem;
+    background-color: #fff;
+    box-shadow: 0px 0 5px rgba(0,0,0,0.1);
+}
+.container.footer{
+    text-align:center;
+    padding:1rem 0.875rem;
+}
+
+@media (max-width:700px){
+    .header .navigation{
+        display: none;
+    }
+    .header .menuToggle{
+        display: flex;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+
+    .container .main{
+    display: flex;
+    flex-direction:column;
+    }
+    .main .col{
+        width: 100%;
+    }
+    .header .navigation.active{
+        display: flex;
+        position: fixed;
+        top: 4rem;
+        background: #fff;
+        width:100%;
+        left:0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding:1.25rem;
+        animation: slide 0.2sec ease;
+    }
+@keyframes slide{
+    0%{
+        left:-300px;
+    }
+    100%{
+       left:0; 
+    }
+}
+.header .navigation li{
+    margin-left: 0rem;
+    padding: 1rem 0;
+}
+}
